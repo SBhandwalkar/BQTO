@@ -1,0 +1,8 @@
+2021-09-03 14:54:40 - ##########################################################################################################
+2021-09-03 14:54:40 - Scenario Name : User should be able to click on I_Want_To_Buy process
+2021-09-03 14:54:40 - Test Case Id : TC_Test_01_Advice_and_Sales_I_Want_to_Buy
+2021-09-03 14:54:40 - Iteration : 1
+2021-09-03 14:54:40 - ##########################################################################################################
+2021-09-03 14:54:43 - Chrome driver created
+2021-09-03 14:55:18 - [[ChromeDriver: chrome on XP (05dbe5d312a221a2b117a8b8c6ba12ba)] -> xpath: //input[@id='menuQuery']] appeared 
+2021-09-03 14:55:18 - Text 'CEB21088534' Entered in 'menuQuery'

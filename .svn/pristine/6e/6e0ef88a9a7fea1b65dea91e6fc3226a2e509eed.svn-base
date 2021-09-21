@@ -1,0 +1,16 @@
+2021-09-20 14:26:12 - ##########################################################################################################
+2021-09-20 14:26:12 - Scenario Name : User should be able to click on Attach_existing_person process
+2021-09-20 14:26:12 - Test Case Id : TC_Attach_existing_person
+2021-09-20 14:26:12 - Iteration : 1
+2021-09-20 14:26:12 - ##########################################################################################################
+2021-09-20 14:26:28 - Chrome driver created
+2021-09-20 14:26:42 - [[ChromeDriver: chrome on XP (57be0b0f4b7fd6a6a64d74f768f4230f)] -> xpath: //input[@id='menuQuery']] appeared 
+2021-09-20 14:26:43 - Text 'CEB21096303' Entered in 'menuQuery'
+2021-09-20 14:26:48 - [[ChromeDriver: chrome on XP (57be0b0f4b7fd6a6a64d74f768f4230f)] -> xpath: //span[text()='                                                                      Start work on case                                                                      ']] appeared 
+2021-09-20 14:26:49 - Start work on case clicked 
+2021-09-20 14:26:49 - [[ChromeDriver: chrome on XP (57be0b0f4b7fd6a6a64d74f768f4230f)] -> xpath: //span[text()='                                                                      Start work on case                                                                      ']] clicked 
+2021-09-20 14:26:54 - [[ChromeDriver: chrome on XP (57be0b0f4b7fd6a6a64d74f768f4230f)] -> xpath: //span[@class='ui-bizagi-label   ui-bizagi-render-label']] appeared 
+2021-09-20 14:26:54 - Text retrieved successfully from element - CEB21096303: SUMMARY FOR CUSTOMER ENGAGEMENT BRANCH
+2021-09-20 14:27:15 - Browser closed
+2021-09-20 14:27:16 - Scenario Status : FAILED
+2021-09-20 14:27:16 - ##########################################################################################################

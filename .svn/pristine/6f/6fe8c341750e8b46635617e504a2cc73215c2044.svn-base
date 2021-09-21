@@ -1,0 +1,373 @@
+
+
+Feature: BizagiLogin
+
+        @TC_01
+@Counter
+ Scenario Outline: User should be able to click on Hub_Search process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>"
+   Then Enter Username
+   Then Click Login Button  
+
+      #Hub search
+    Then Queries_Drp
+   Then Appication
+   Then Hub_Search
+   Then CaseNo
+   Then SearchCEB
+   Then CloseButton
+   
+   Then Queries_Drp
+   Then Appication
+   Then Hub_Search
+   Then IDNumber
+   Then SearchCEB
+   Then CloseButton
+   
+    Then Queries_Drp
+   Then Appication
+   Then Hub_Search
+   Then GCS
+   Then SearchCEB
+   Then CloseButton
+   
+   
+   Then Queries_Drp
+   Then Appication
+   Then Hub_Search
+   Then AgreementNo
+   Then SearchCEB
+   Then CloseButton
+   
+    Then Queries_Drp
+   Then Appication
+   Then Hub_Search
+   Then ReferanceNo
+   Then SearchCEB
+   Then CloseButton
+ Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+
+
+        @TC_02
+@Counter
+ Scenario Outline: User should be able to click on Branch_Search process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>"
+ 
+Then Queries_Drp
+   Then Appication
+   Then Branch_Search
+   Then ReferanceNo
+   Then SearchCEB
+   
+   Then CloseButton
+   Then Queries_Drp
+   Then Appication
+   Then Branch_Search
+   Then AgreementNo
+   Then SearchCEB
+   Then CloseButton
+    
+    Then Queries_Drp
+   Then Appication
+   Then Branch_Search
+   Then GCS
+   Then SearchCEB
+   Then CloseButton
+   
+   Then Queries_Drp
+   Then Appication
+   Then Branch_Search
+   Then IDNumber
+   Then SearchCEB
+   Then CloseButton
+
+ Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+
+
+   @TC_03
+@Counter
+ Scenario Outline: User should be able to click on I_Need_Money process
+  Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>"
+   Then Enter Case
+   Then Enter StartCase
+   Then ConfirmCheckBox
+   Then Click ButtonNext
+   Then SelectEmail
+   Then SelectMobile
+   Then Click NextButton_2
+   Then I_Need_Money
+   Then Click NextButton_2
+   Then ZIL
+   Then ZILSelect
+   Then RequiredValue
+   Then SelectBank
+   Then SaveButton
+   Then Click NextButton_2
+   Then SignZero
+   Then Click NextButton_2
+
+ Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+
+
+ @TC_04
+@Counter
+ Scenario Outline: User should be able to click on I_Need_Money process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>"
+   Then Enter Case
+   Then Enter StartCase
+   Then ConfirmCheckBox
+   Then Click ButtonNext
+   Then SelectEmail
+   Then SelectMobile
+   Then Click NextButton_2
+
+   Then I_Want_To_Buy
+   Then Click NextButton
+   Then Click SolutionType
+   Then Click NextButton_2
+   Then Click NextButton_3
+
+Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+   
+
+ @TC_05
+@Counter
+ Scenario Outline: User should be able to click on I_Need_General_Information process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>"
+   Then Enter Case
+   Then Enter StartCase
+   Then ConfirmCheckBox
+   Then Click ButtonNext
+   Then SelectEmail
+   Then SelectMobile
+   Then Click NextButton_2
+
+   
+   Then I_Need_General_Information
+   Then GeneralNextButon
+   Then TransactionType
+   Then AdditionalInfo
+   Then ReasonRadioButton
+    Then GeneralNextButon
+
+Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+   
+
+
+ @TC_06
+@Counter
+ Scenario Outline: User should be able to click on ChangeMyIntermediary process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>" 
+   Then Enter Case
+   Then Enter StartCase
+   Then ConfirmCheckBox
+   Then Click ButtonNext
+   Then SelectEmail
+   Then SelectMobile
+   Then Click NextButton_2
+
+   
+    Then ChangeMyIntermediary
+   Then Click NextButon
+   #Then Click Next
+   Then IntermediaryLink
+   Then IntermediaryNext
+
+Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+
+
+@TC_07
+@Counter
+ Scenario Outline: User should be able to click on I_Want_To_Complain process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>" 
+   Then Enter Case
+   Then Enter StartCase
+   Then ConfirmCheckBox
+   Then Click ButtonNext
+   Then SelectEmail
+   Then SelectMobile
+   Then Click NextButton_2
+
+   
+  Then I_Want_To_Complain
+   Then Click NextButton_4
+   Then Enter Complain_FeedBack
+   Then Enter Outcome
+   Then Click Correspondance
+   Then Click ConfirmCheckBox
+   Then Click Button
+   
+
+Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+
+
+
+ @TC_08
+@Counter
+ Scenario Outline: User should be able to click on Change_Payment_Detail process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>"  
+   Then Enter Case
+   Then Enter StartCase
+   Then ConfirmCheckBox
+   Then Click ButtonNext
+   Then SelectEmail
+   Then SelectMobile
+   Then Click NextButton_2
+
+   
+   Then Click Change_Payment_Detail
+     #Then Click Next
+   Then Click NextButon
+   Then Select Stop_Order
+   Then Enter Details_Change
+   Then Click NextButon
+   Then Click Next
+   Then SignDocument
+   Then FormLink
+   Then Click Next
+
+Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+
+
+ @TC_09
+@Counter
+ Scenario Outline: User should be able to click on Change_Premium_Detail process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>"
+   Then Enter Case
+   Then Enter StartCase
+   Then ConfirmCheckBox
+   Then Click ButtonNext
+   Then SelectEmail
+   Then SelectMobile
+   Then Click NextButton_2
+
+   
+   Then Change_Premium_Detail
+   Then Click NextButon
+   Then DeferPaymentSelect
+   Then ChangeDetail
+   Then Click NextButon
+   Then ManuallySign
+   Then Click NextButon
+   
+
+Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|
+    
+    
+    
+    
+     @TC_10
+@Counter
+ Scenario Outline: User should be able to click on Change_Payment_Detail process
+   Given Bizagi Login screen is launched"<TestDataFile>" & Data Set "<DataSetSheet>"  
+   Then Enter Case
+   Then Enter StartCase
+   Then ConfirmCheckBox
+   Then Click ButtonNext
+   Then SelectEmail
+   Then SelectMobile
+   Then Click NextButton_2
+
+   
+   Then Click Change_Payment_Detail
+     #Then Click Next
+   Then Click NextButon
+   Then Click Change_Premium_From_Stop_Oder_To_Debit_Oder
+   #The Select_Option
+   Then Select_Option
+   Then Deduct_Day
+   Then Select_Bank
+   Then Save_Button
+   Then Click NextButon
+   Then ManuallySignDocument
+   Then Click NextButon
+   Then DecissionButton
+   Then Click NextButon
+   Then Customer_Supply_Documents_CheckBox
+   Then Click NextButon
+   Then Click NextButon
+   Then Click NextButon
+   Then Complete_Button
+   
+   #Then Admin_Drp
+   #Then User_Management_Drp
+   #Then Users_Drp
+   #Then Search_User
+    #Then SearchCEB
+    #Then Edit_Icon
+    #Then User_Configuration_Tab
+   #Then SavesButton
+    #Then CloseButton
+    
+   
+   Then New_Case_Tab
+   Then Case_Administration_Drp
+   Then CEB_Number
+   Then Reassign_Case_Button
+   Then Search_Button
+   Then Search_Button
+   Then Select_CEB
+   Then Me_Button
+   Then Reason_text
+   Then Click NextButon
+    
+    Then Inbox_Tab
+    Then Service_Transaction
+    Then Manual_Servicing
+    
+    Then Register_Call
+    Then Select_Phone
+    Then Call_Reason
+    Then Call_Outcome_Drp
+    Then Comment_Text
+    Then SavesButton
+    
+    
+    #Then Send_SMS
+    #Then SMS_Template
+    #Then Select_Phone
+    #Then New_SMS_Text
+    #Then Save_Button
+    
+    #Then Send_Email
+    #Then Select_Email
+    #Then Email_Body
+    #Then Save_Button
+    
+   #Then Related_Reference_Tab
+   #Then ReferenceNumber
+   #Then Reference_Type
+   #Then Add_Info
+   #Then Add_Reference
+   Then Complete_Radio_Button
+   Then Complete_Reason
+   Then Click NextButon
+   
+   
+   
+    
+    
+    
+ 
+
+Examples: 
+    | TestDataFile | DataSetSheet |
+    | BizagiLoginTestData| LoginData,ComplainsAndFeedback|

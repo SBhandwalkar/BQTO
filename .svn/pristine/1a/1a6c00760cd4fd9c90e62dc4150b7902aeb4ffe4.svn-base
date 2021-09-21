@@ -1,0 +1,38 @@
+2021-09-03 15:08:42 - ##########################################################################################################
+2021-09-03 15:08:42 - Scenario Name : User should be able to click on I_Want_To_Buy process
+2021-09-03 15:08:42 - Test Case Id : TC_Test_01_Advice_and_Sales_I_Want_to_Buy
+2021-09-03 15:08:42 - Iteration : 1
+2021-09-03 15:08:42 - ##########################################################################################################
+2021-09-03 15:08:46 - Chrome driver created
+2021-09-03 15:09:44 - *#* no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='menuQuery']"}
+2021-09-03 15:09:45 - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='menuQuery']"}
+  (Session info: chrome=90.0.4430.72)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LT080786', ip: '10.115.61.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\x473215\AppData\Local\Temp\scoped_dir40536_25806005}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56587}, acceptInsecureCerts=false, browserVersion=90.0.4430.72, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: c34f7cd8dcd487c474d8b8f1cedcca39
+*** Element info: {Using=xpath, value=//input[@id='menuQuery']}
+2021-09-03 15:09:45 - Browser closed
+2021-09-03 15:09:46 - Scenario Status : FAILED
+2021-09-03 15:09:46 - ##########################################################################################################
+2021-09-03 15:09:46 - ##########################################################################################################
+2021-09-03 15:09:46 - Scenario Name : User should be able to click on I_Need_Advice process
+2021-09-03 15:09:46 - Test Case Id : TC_Test_02_Advice_and_Sales_I_Need_Advice
+2021-09-03 15:09:46 - Iteration : 1
+2021-09-03 15:09:46 - ##########################################################################################################
+2021-09-03 15:09:48 - Chrome driver created
+2021-09-03 15:11:00 - *#* no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='menuQuery']"}
+2021-09-03 15:11:00 - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='menuQuery']"}
+  (Session info: chrome=90.0.4430.72)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LT080786', ip: '10.115.61.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\x473215\AppData\Local\Temp\scoped_dir43264_608634847}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56619}, acceptInsecureCerts=false, browserVersion=90.0.4430.72, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: f3b5602a1cc2bcb5bb36f68901305e6a
+*** Element info: {Using=xpath, value=//input[@id='menuQuery']}
+2021-09-03 15:11:01 - Browser closed
+2021-09-03 15:11:02 - Scenario Status : FAILED
+2021-09-03 15:11:02 - ##########################################################################################################

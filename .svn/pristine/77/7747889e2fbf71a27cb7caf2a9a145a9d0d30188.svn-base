@@ -1,0 +1,6 @@
+2021-09-15 14:38:36 - ##########################################################################################################
+2021-09-15 14:38:36 - Scenario Name : This is my first test
+2021-09-15 14:38:36 - Test Case Id : TC_01
+2021-09-15 14:38:36 - Iteration : 1
+2021-09-15 14:38:36 - ##########################################################################################################
+2021-09-15 14:38:40 - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "com.cucumber.businesslogic.CommonMethod.driver" is null

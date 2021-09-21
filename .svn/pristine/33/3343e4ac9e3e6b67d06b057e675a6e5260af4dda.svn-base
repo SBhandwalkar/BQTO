@@ -1,0 +1,20 @@
+###############Application Details###############
+ApplicationName=GoogleTest
+
+###############Release Details###############
+Release=beta
+
+###############Environment Details###############
+Environment=QA
+
+###############External Folder Details###############
+ResourcesBaseFolder= resources/
+FeaturesLocation=Feature/
+LocatorsBaseFolder=Locators/
+EnvironmentProps=EnvironmentProperties/
+TestDataFolder=TestData/
+ReportBaseFolder =resources/Reports/
+Log4jFile=/propertiesFile
+
+
+

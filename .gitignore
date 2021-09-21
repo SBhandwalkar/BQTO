@@ -1,0 +1,12 @@
+/bin/
+/target/
+/CucumberScreenshots/
+/output/
+/test-output/
+maven.properties
+Reports/
+*/.svn/
+*.log
+*.zip
+*.exe
+.metadata/

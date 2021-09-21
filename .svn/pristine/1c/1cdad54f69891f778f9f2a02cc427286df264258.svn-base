@@ -1,0 +1,6 @@
+2021-09-16 18:17:37 - ##########################################################################################################
+2021-09-16 18:17:37 - Scenario Name : User should be able to click on Attach_existing_person process
+2021-09-16 18:17:37 - Test Case Id : TC_Attach_existing_person
+2021-09-16 18:17:37 - Iteration : 1
+2021-09-16 18:17:37 - ##########################################################################################################
+2021-09-16 18:17:37 - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "com.cucumber.businesslogic.CommonMethod.driver" is null

@@ -1,0 +1,21 @@
+2021-09-20 14:20:02 - ##########################################################################################################
+2021-09-20 14:20:02 - Scenario Name : User should be able to click on Attach_existing_person process
+2021-09-20 14:20:02 - Test Case Id : TC_Attach_existing_person
+2021-09-20 14:20:02 - Iteration : 1
+2021-09-20 14:20:02 - ##########################################################################################################
+2021-09-20 14:20:26 - Chrome driver created
+2021-09-20 14:20:45 - [[ChromeDriver: chrome on XP (5e5e03089740b6493f15dcbee17589c9)] -> xpath: //input[@id='menuQuery']] appeared 
+2021-09-20 14:20:46 - Text 'CEB21096301' Entered in 'menuQuery'
+2021-09-20 14:21:12 - *#* no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='                                                                      Start work on case                                                                      ']"}
+2021-09-20 14:21:12 - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='                                                                      Start work on case                                                                      ']"}
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WSAMZN-D8INV091', ip: '10.141.6.238', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}), userDataDir=D:\Users\XY58778\AppData\Local\Temp\1\scoped_dir47216_2031687271}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60559}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=93.0.4577.63, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5e5e03089740b6493f15dcbee17589c9
+*** Element info: {Using=xpath, value=//span[text()='                                                                      Start work on case                                                                      ']}
+2021-09-20 14:21:13 - Browser closed
+2021-09-20 14:21:14 - Scenario Status : FAILED
+2021-09-20 14:21:14 - ##########################################################################################################

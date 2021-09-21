@@ -1,0 +1,21 @@
+trigger: none
+pool:
+  name: 'BizagiTesting'
+
+variables:
+  - group: tokens
+  - group: SQLUsers
+
+steps:
+  - task: Maven@3
+    inputs:
+      mavenPomFile: "pom.xml"
+      options: "-Drepo.password=$(PAT) -s settings.xml"
+      mavenOptions: '-Xmx3072m'
+      javaHomeOption: 'JDKVersion'
+      publishJUnitResults: true
+      testResultsFiles: '**/surefire-reports/TEST-*.xml'
+      goals: 'package'
+    env:
+          DB_User: $(Username)
+          DB_Password: $(Password)
